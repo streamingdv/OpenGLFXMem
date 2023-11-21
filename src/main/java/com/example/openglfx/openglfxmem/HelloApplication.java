@@ -62,7 +62,7 @@ public class HelloApplication extends Application {
 
                                             }
                                         });
-                                        this.root.getChildren().removeAll();
+                                        this.root.getChildren().clear();
                                         this.root.getChildren().add(this.createOpenGLCanvas());
                                     }
                                 }));

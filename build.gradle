@@ -26,8 +26,8 @@ dependencies {
     testImplementation("org.junit.jupiter:junit-jupiter-api:5.8.1")
     testRuntimeOnly("org.junit.jupiter:junit-jupiter-engine:5.8.1")
 
-    implementation 'com.huskerdev:openglfx:4.0'
-    implementation 'com.huskerdev:openglfx-lwjgl:4.0'
+    implementation 'com.huskerdev:openglfx:4.0.1'
+    implementation 'com.huskerdev:openglfx-lwjgl:4.0.1'
 
     // LWJGL
     implementation platform('org.lwjgl:lwjgl-bom:3.3.2')
